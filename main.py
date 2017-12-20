@@ -1,6 +1,7 @@
 print('\nWelcome to The Game')
 #The standard format for room names is (Position)(Step no.). Deviation from this may result in severe confusion. Comments should be added when possible.
 #Every dialogue should start with \n for optimal visual effect.
+#test comment for git pull
 def L1():
 	#unfinished
 	#This is for the left room, after choice zero.
