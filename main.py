@@ -23,12 +23,12 @@ def R1():
 		print('\nThe body seems to be emitting a foul stench.')
 		print('\nAs you further search the body, you find dark spots on it.')
 		print('\nSuddenly a claw springs out of the body!')
-		c2a = str(input('A: Punch it! Grab grab the claw\nB: Back away from de body'))
+		c2a = str(input('A: Punch it! Grab grab the claw\nB: Back away from de body\nYour choice: '))
 	elif(c2 == 'd'):
 		print('\nAs you head back into the starting room, it seems different.')
 		print('\nThere is now a table in the centre of the room with a knife on it.')
 		print('\nAs you look back you see a man at the door staring at you.')
-		c2a = str(input('A: Pick up the knife to defend yourself\nB: Run!'))
+		c2a = str(input('A: Pick up the knife to defend yourself\nB: Run!\nYour choice: '))
 def r0():
 	#This is room zero, where the adventure starts~
 	print('\n\"Errr... what\'s happening?\"')
