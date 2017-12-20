@@ -11,7 +11,9 @@ def L1():
 	if(c2 == 'a'):
 		print('\nYou whisper out: \"Who.. are you? And what do you want?\"')
 	elif(c2 == 'd'):
-		exit()
+		print('\nYou enter the tunnel cautiously.')
+		print('\nAfter what seems to be forever in the inky darkness you emerge into...')
+		print('\n...vast, rolling fields? Wait a minute, where are you exactly?')
 def R1():
 	#unfinished
 	#This is for the right room, after choice zero.
