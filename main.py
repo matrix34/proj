@@ -7,7 +7,7 @@ def L1():
 	#This is for the left room, after choice zero.
 	print('\nAs you enter a bright light catches your eye in the corner of the room.')
 	print('\nA voice echoes: \"Well done survivor! Now enter the tunnel...\"')
-	c2 = str(input('\nA:"Who are you?"\nD: Walk into the tunnel\nYour choice: '))
+	c2 = str(input('\nA: "Who are you?"\nD: Walk into the tunnel\nYour choice: '))
 	if(c2 == 'a'):
 		print('\nYou whisper out: \"Who.. are you? And what do you want?\"')
 	elif(c2 == 'd'):
@@ -32,7 +32,7 @@ def R1():
 def r0():
 	#This is room zero, where the adventure starts~
 	print('\n\"Errr... what\'s happening?\"')
-	print('\nA sign pops up in front of the gloomy room: ')
+	print('\nA sign reveals itself in front of the gloomy room: ')
 	print('\n\"Left or right? Choose carefully!\"')
 	c1 = str(input('\nA: Enter the left room\nD: Enter the right room\nYour choice: '))
 	if(c1 == 'a'):
