@@ -39,7 +39,8 @@ def fstch():
 		one()
 		print('\nIt says...')
 		one()
-		print('\nNAME: KongRJ')#change name
+		na = str(input('player name: ')
+		print(na.title())
 		time.sleep(.5)
 		print('AGE: 16')
 		time.sleep(.5)
