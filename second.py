@@ -40,7 +40,7 @@ def fstch():
 		print('\nIt says...')
 		one()
 		na = str(input('player name: ')
-		print(na.title())
+		print('Name:' + na.title())
 		time.sleep(.5)
 		print('AGE: 16')
 		time.sleep(.5)
